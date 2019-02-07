@@ -3,7 +3,7 @@ echo List of roles available
 curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request LIST \
-    "${VAULT_ADDR}/v1/auth/approle/role" | jq
+    "${VAULT_ADDR}/v1/auth/approle/pos_server" | jq
 
 echo add new role from JSON file
 curl -sS \
