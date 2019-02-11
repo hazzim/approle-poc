@@ -1,0 +1,4 @@
+{
+  "password": "superSecretPassword",
+  "policies": "pos_server_create_policy"
+}
