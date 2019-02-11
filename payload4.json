@@ -2,7 +2,7 @@
   "token_ttl": "10m",
   "token_max_ttl": "15m",
   "policies": [
-    "pos_server_create_policy"
+    "pos_server_read"
   ],
   "period": 0,
   "bind_secret_id": true
