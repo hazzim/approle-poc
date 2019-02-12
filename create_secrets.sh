@@ -3,13 +3,13 @@
 curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request POST \
-    --data @payload1.json \
+    --data @payload7.json \
     "${VAULT_ADDR}/v1/secret/data/onlinestore/pos/username"
 
 curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request POST \
-    --data @payload2.json \
+    --data @payload8.json \
     "${VAULT_ADDR}/v1/secret/data/onlinestore/pos/password"
 
 
