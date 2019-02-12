@@ -5,10 +5,10 @@ path "secret/*"
   capabilities = ["create"]
 }
 
-path "onlinestore/pos/username" {
+path "secret/data/onlinestore/pos/username" {
   capabilities = ["create"]
 }
 
-path "onlinestore/pos/password" {
+path "secret/data/onlinestore/pos/password" {
   capabilities = ["create"]
 }
