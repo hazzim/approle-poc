@@ -3,5 +3,5 @@
  curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN"\
     --request POST \
-    --data @payload5.json \
+    --data @userHazzim.json \
    "${VAULT_ADDR}/v1/auth/userpass/users/hazzim"

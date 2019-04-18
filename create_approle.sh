@@ -3,13 +3,13 @@ echo add new role from JSON file
 curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request POST \
-    --data @payload.json \
+    --data @postgre_create.json \
     "${VAULT_ADDR}/v1/auth/approle/role/postgre_create" | jq
 
 curl -sS \
     --header "X-Vault-Token: $VAULT_TOKEN" \
     --request POST \
-    --data @payload4.json \
+    --data @postgre_read.json \
     "${VAULT_ADDR}/v1/auth/approle/role/postgre_read" | jq
 
 echo Reading approle postgre_read
